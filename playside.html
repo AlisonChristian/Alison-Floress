@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ctrl + Play &#128293;</title>
+    
+    <!-- Favicon for the webpage -->
+    <link rel="icon" href="images/webpagelogo.png" type="image/png" style="background-color: #3c3c3c;">
+    
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <!-- Logo section -->
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/weblogo.png" alt="Logo" class="itlogo">
+            </a>
+        </div>  
+
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <div class="play-menu">
+                <button class="play-button">Play Side</button>
+                <div class="play-content">
+                  <a href="#featured">Popular Games</a>
+                  <a href="#reviews">Game Reviews</a>
+                  <a href="#news">Game News</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="featured" class="featured">
+        <section class="slide-container">
+            <h2>Popular Games</h2>
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="images/valorant.jpg" width="500" height="400" alt="playing valorant">
+                    <img id="slide-2" src="images/minecraft.jpg" width="500" height="400" alt="playing minecraft">
+                    <img id="slide-3" src="images/dota2.jpg" width="500" height="400" alt="playing dota2">
+                    <img id="slide-4" src="images/gta2.jpg" width="500" height="400" alt="playing dota2">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <p>Hold Shift + Scroll</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="reviews-container">
+            <h2>Game Reviews</h2>
+            <div class="reviews">
+                <div class="review-column">
+                    <div class="review-image">
+                        <img src="images/valorantp.jpg" width="200" height="250" alt="Valorant Portrait Picture">
+                    </div>
+                    <div class="review-content">
+                        <a href="playsidedetails/valorantdetails.html"><h3>Valorant</h3></a>
+                        <p>Riot Games</p>
+                    </div>
+                </div>
+                <div class="review-column">
+                    <div class="review-image">
+                        <img src="images/minecraftp.webp" width="200" height="250" alt="Minecraft Portrait Picture">
+                    </div>
+                    <div class="review-content">
+                        <a href="playsidedetails/minecraftdetails.html"><h3>Minecraft</h3></a>
+                        <p>Mojang Studios</p>
+                    </div>
+                </div>
+                <div class="review-column">
+                    <div class="review-image">
+                        <img src="images/dota2p.png" width="200" height="250" alt="Dota 2 Portrait Picture">
+                    </div>
+                    <div class="review-content">
+                        <a href="playsidedetails/dotadetails.html"><h3>Dota 2</h3></a>
+                        <p>Valve Corporation</p>
+                    </div>
+                </div>
+                <div class="review-column">
+                    <div class="review-image">
+                        <img src="images/cs2.jpg" width="200" height="250" alt="CS 2 Portrait Picture">
+                    </div>
+                    <div class="review-content">
+                        <a href="playsidedetails/cs2details.html"><h3>Counter Strike 2</h3></a>
+                        <p>Valve Corporation</p>
+                    </div>
+                </div>
+                <div class="review-column">
+                    <div class="review-image">
+                        <img src="images/pubg.jpg" width="200" height="250" alt="PUBG Portrait Picture">
+                    </div>
+                    <div class="review-content">
+                        <a href="playsidedetails/pubgdetails.html"><h3>PUBG: Battlegrounds</h3></a>
+                        <p>PUBG Studios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news">
+        <h2>Game News</h2>
+        <div class="news-grid">
+            <div class="news-card main-card">
+                <img src="images/dotanews.jpg" alt="Far Cry news">
+                <h3>Team Spirit streamer named the best supports to gain MMR in Dota 2.</p>
+                <span class="author">Chris Paul</span>
+            </div>
+            <div class="news-card">
+                <img src="images/minecraft2.jpg" alt="Minecraft Movie">
+                <h4>The Unfinished Version Of The <em>Minecraft Movie</em> Is Going Viral Online</h4>
+                <span class="author">Steve</span>
+            </div>
+            <div class="news-card">
+                <img src="images/gta.jpg" alt="Nintendo">
+                <h4>Rockstar's GTA 6 Release Window Disrupts Game Launch Schedules for Competing Studios</h4>
+                <span class="author">Big Smoke</span>
+            </div>
+            <div class="news-card">
+                <img src="images/marvel.jpg" alt="Marvel Rivals">
+                <h4><em>Marvel Rivals</em> Fans Are Having Trouble Telling All Of The Blondes Apart</h4>
+                <span class="author">Peter Parker</span>
+            </div>
+            <div class="news-card">
+                <img src="images/ring.jpg" alt="Elden Ring Director">
+                <h4><em>Elden Ring</em> Director Explains What You Actually Do In <em>Bloodborne</em>-Looking Multiplayer <em>Duskbloods</em></h4>
+                <span class="author">Dumbledore</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Portfolio by Pair. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
